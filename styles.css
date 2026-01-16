@@ -127,36 +127,6 @@ body:hover .cursor-glow {
     align-items: center;
 }
 
-.hero-content--stacked {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 2.5rem;
-}
-
-.hero-content--stacked .hero-text {
-    max-width: 800px;
-}
-
-.hero-content--stacked .hero h1 {
-    max-width: 100%;
-}
-
-.hero-content--stacked .hero-subtitle {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hero-content--stacked .avatar-container {
-    width: 200px;
-    height: 200px;
-}
-
-.hero-content--stacked .hero-cta {
-    justify-content: center;
-}
-
 .hero-label {
     font-size: 0.875rem;
     font-weight: 500;
