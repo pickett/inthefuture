@@ -609,4 +609,8 @@ section h2 {
     .stat-number {
         font-size: 2rem;
     }
+
+    .scroll-indicator {
+        display: none;
+    }
 }
