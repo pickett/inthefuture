@@ -140,12 +140,12 @@ body:hover .cursor-glow {
 }
 
 .hero h1 {
-    font-size: clamp(3.5rem, 8vw, 5.5rem);
+    font-size: clamp(3rem, 6vw, 4.5rem);
     font-weight: 800;
-    line-height: 1.0;
+    line-height: 1.05;
     letter-spacing: -0.03em;
     margin-bottom: 1.5rem;
-    max-width: 700px;
+    max-width: 600px;
     opacity: 0;
     animation: fadeInUp 0.6s ease forwards;
     animation-delay: 0.4s;
