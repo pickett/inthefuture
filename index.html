@@ -40,18 +40,30 @@
                     <div class="avatar-container">
                         <div class="avatar-ring"></div>
                         <div class="spot-robot">
-                            <svg viewBox="0 0 100 60" fill="currentColor">
-                                <ellipse cx="50" cy="45" rx="25" ry="12" opacity="0.3"/>
-                                <rect x="35" y="25" width="30" height="18" rx="4"/>
-                                <rect x="30" y="30" width="8" height="4" rx="2"/>
-                                <rect x="62" y="30" width="8" height="4" rx="2"/>
-                                <rect x="42" y="15" width="16" height="12" rx="3"/>
-                                <circle cx="46" cy="20" r="2"/>
-                                <circle cx="54" cy="20" r="2"/>
-                                <rect x="20" y="38" width="12" height="4" rx="2" transform="rotate(-30 26 40)"/>
-                                <rect x="68" y="38" width="12" height="4" rx="2" transform="rotate(30 74 40)"/>
-                                <rect x="25" y="42" width="10" height="4" rx="2" transform="rotate(20 30 44)"/>
-                                <rect x="65" y="42" width="10" height="4" rx="2" transform="rotate(-20 70 44)"/>
+                            <svg viewBox="0 0 120 80" fill="currentColor">
+                                <!-- Body -->
+                                <rect class="spot-body" x="35" y="20" width="50" height="22" rx="3"/>
+                                <!-- Head/Sensor -->
+                                <rect x="75" y="16" width="18" height="14" rx="2"/>
+                                <circle cx="88" cy="22" r="3" fill="var(--color-bg)"/>
+                                <!-- Front legs -->
+                                <g class="spot-leg-front-left">
+                                    <rect x="70" y="40" width="6" height="16" rx="1"/>
+                                    <rect x="70" y="54" width="6" height="14" rx="1"/>
+                                </g>
+                                <g class="spot-leg-front-right">
+                                    <rect x="62" y="40" width="6" height="16" rx="1"/>
+                                    <rect x="62" y="54" width="6" height="14" rx="1"/>
+                                </g>
+                                <!-- Back legs -->
+                                <g class="spot-leg-back-left">
+                                    <rect x="46" y="40" width="6" height="16" rx="1"/>
+                                    <rect x="46" y="54" width="6" height="14" rx="1"/>
+                                </g>
+                                <g class="spot-leg-back-right">
+                                    <rect x="38" y="40" width="6" height="16" rx="1"/>
+                                    <rect x="38" y="54" width="6" height="14" rx="1"/>
+                                </g>
                             </svg>
                         </div>
                         <img src="headshot.jpg" alt="Ben Johnson" class="avatar-image">
