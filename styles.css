@@ -407,12 +407,8 @@ section h2 {
 
 /* About */
 .about-content {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    align-items: center;
 }
 
 .about-text h2 {
